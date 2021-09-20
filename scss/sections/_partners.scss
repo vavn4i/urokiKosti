@@ -1,0 +1,109 @@
+.partners-informations {
+  padding-top: 80px;
+  margin-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  &__title {
+    font-weight: 500;
+    margin-bottom: 27px;
+    font-size: 46px;
+    line-height: 57px;
+    color: #252b42;
+  }
+  &__text {
+    margin-bottom: 10px;
+    font-weight: 400;
+    width: 298px;
+    height: 40px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 20px;
+    color: #374754;
+  }
+}
+.partners-icon {
+  margin-bottom: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &__img {
+    margin-right: 37px;
+  }
+  &__img:last-child {
+    margin-right: 0px;
+  }
+}
+.partners-button {
+  padding-bottom: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &__try {
+    width: 236px;
+    height: 65px;
+    padding: 16px;
+    background: #2091f9;
+    color: #ffffff;
+    border-radius: 35px;
+    font-size: 22px;
+    line-height: 33px;
+    border: none;
+    cursor: pointer;
+  }
+}
+@media screen and (max-width: 1230px) {
+  .partners-informations {
+    padding: 0;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .partners-informations {
+    margin-bottom: 50px;
+  }
+  .partners-informations {
+    margin-bottom: 50px;
+  }
+
+  .partners-icon {
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+  }
+
+  .partners-icon__img {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 419px) {
+    
+  .partners-informations__title {
+    font-size: 46px;
+    line-height: 57px;
+  }
+  .partners-informations__text {
+    margin-bottom: 108px;
+    font-weight: 700;
+  }
+  .partners-informations {
+    margin-bottom: 0;
+  }
+  .partners-icon {
+    flex-direction: column;
+    margin-bottom: 97px;
+  }
+  .partners-icon__img {
+    margin: 0 0 30px 0;
+  }
+  .partners-icon__img:nth-child(5) {
+    margin-bottom: 0;
+  }
+  .icon-mobile {
+    display: none;
+  }
+  .partners-button {
+    padding: 0;
+    margin-bottom: 171px;
+  }
+}

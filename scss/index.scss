@@ -1,0 +1,46 @@
+@import "./sections/welcome";
+@import "./sections/_features";
+@import "./sections/_lightning";
+@import "./sections/_letter";
+@import "./sections/_partners";
+@import "./sections/testimonails";
+@import "./sections/_pricing";
+@import "./sections/_contact";
+@import "./_header.scss";
+@import './_footer';
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+input,
+textarea {
+  font-family: inherit;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+ul,
+li {
+  padding: 0;
+  margin: 0;
+}
+
+ul,
+li {
+  list-style-type: none;
+}
+* {
+  box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+

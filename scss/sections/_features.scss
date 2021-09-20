@@ -1,0 +1,131 @@
+.features-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+     .subtitle {
+     margin-bottom: 17px;
+      }
+      .title {
+      margin-bottom: 27px;
+     }
+     .text {
+       margin-bottom: 150px;
+     }
+}
+.features-page__informations {
+  padding-left: 67px;
+  padding-right: 67px;
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+       &-img {
+         width: 949px;
+          height: 900px;
+        }
+
+  &__right {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+
+  &__icon {
+    width: 43px;
+    height: 43px;
+    padding-right: 10px;
+  }
+}
+.features-img {
+    display: flex;
+    align-items: center;
+  
+    margin-bottom: 10px;
+  }
+  .features-page__informations-title {
+    font-size: 22px;
+    line-height: 33px;
+  }
+  .features-informations__text {
+    margin-bottom: 90px;
+    width: 255px;
+    height: 81px;
+    color: #374754;
+    font-size: 18px;
+    line-height: 27px;
+  }
+
+  
+  @media screen and (max-width: 1230px) {
+        .features-page__informations {
+        flex-direction: column;
+      }
+      .features-informations {
+        display: flex;
+        width: 600px;
+        justify-content: space-between;
+      }  
+      
+  .text {
+    margin-bottom: 0;
+  }
+  }
+  @media screen and (max-width: 1024px) {
+    .features-page__informations-img {
+        width: 768px;
+        height: 700px;
+      }
+  }
+  @media screen and (max-width: 769px) {
+    .features-page__informations {
+        padding-right: 16px;
+        padding-left: 16px;
+        width: 100%;
+      }
+      .features-page__informations-img {
+        width: 100%;
+      }
+      .features-informations {
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+  }
+  @media screen and (max-width: 419px) {
+    .features-page__informations-img {
+        margin-bottom: 80px;
+        width: 385px;
+        height: 198px;
+      }
+      .features-page__informations {
+        padding: 0;
+      }
+      .features-img {
+        margin-bottom: 15px;
+      }
+      .subtitle {
+        font-size: 22px;
+        line-height: 33px;
+      }
+      .title {
+        font-size: 46px;
+        line-height: 57px;
+        font-weight: 500;
+      }
+      .text {
+        margin-bottom: 66px;
+        font-size: 16px;
+        line-height: 20px;
+        font-weight: 700;
+        color: #374754;
+        width: 298px;
+        text-align: center;
+      }
+  }
+
+
+
+      
+

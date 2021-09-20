@@ -1,0 +1,130 @@
+
+.welcome-section {
+    padding-bottom: 134px;
+    background-image: url("../images/gradient.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .welcome-section__img {
+    width: 1090.86px;
+    height: 626.03px;
+    object-fit: cover;
+  }
+  .center-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-weight: bold;
+    color: #ffffff;
+
+      &__text {
+      font-size: 22px;
+      line-height: 33px;
+      margin-bottom: 8px;
+      font-weight: 500;
+    }
+     &__title {
+      padding: 10px;
+      font-weight: 900;
+      font-size: 55px;
+      line-height: 65px;
+      margin-bottom: 18px;
+    }
+      &__subtitle {
+      padding: 10px;
+      margin-bottom: 90px;
+      font-size: 16px;
+      line-height: 20px;
+      font-weight: 500;
+    }
+      &__button {
+      padding: 16px 58px;
+      margin-bottom: 114px;
+      font-size: 22px;
+      line-height: 33px;
+      background-color: #fff;
+      border-radius: 35px;
+      color: #2091f9;
+      border: none;
+      font-weight: bold;
+      cursor: pointer;
+    }
+  }
+
+  .welcome-section__img-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  @media screen and (max-width: 1230px) {
+    .welcome-section__img {
+      width: 768px;
+      height: auto;
+    }
+  }
+  @media screen and (max-width: 1024px) {
+    .welcome-section {
+      padding-bottom: 100px;
+    }
+
+  }
+  @media screen and (max-width: 769px) {
+    .center-section__title {
+      margin-bottom: 0;
+    }
+    .center-section__button {
+      margin-bottom: 50px;
+    }
+   
+    .welcome-section__img-container {
+      padding: 20px;
+    }
+    .welcome-section__img {
+      width: 100%;
+    }
+    .center-section__title {
+      text-align: center;
+    }  
+  }
+  @media screen and (max-width: 419px) {
+    .center-section__text {
+      margin-bottom: 17px;
+      font-size: 22px;
+      line-height: 33px;
+    }
+    .center-section__title {
+      padding: 0;
+      margin-bottom: 27px;
+      font-size: 46px;
+      line-height: 57px;
+      font-weight: 500;
+    }
+    .center-section__subtitle {
+      padding: 0;
+      margin-bottom: 69px;
+      font-size: 16px;
+      line-height: 20px;
+      text-align: center;
+      width: 298px;
+    }
+    .center-section__button {
+      padding: 16px 0;
+      margin-bottom: 65px;
+      width: 236px;
+      font-size: 22px;
+      line-height: 33px;
+    }
+    .welcome-section__img {
+      padding: 0;
+      margin-bottom: 167px;
+    }
+    .welcome-section__img-container {
+      padding: 0 20px;
+    }
+    .welcome-section {
+      padding: 0;
+      background-size: 242%;
+    }
+ 
+  }

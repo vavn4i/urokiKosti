@@ -1,0 +1,182 @@
+.button-burger_list{
+ 
+  padding-left: 0;
+  list-style: block;
+  display: none;
+
+  
+
+}
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 48px 40px;
+  margin-bottom: 80px;
+
+  &-logo__container {
+    padding: 10px 30px;
+    margin-right: 12px;
+  }
+  &-list {
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+    padding-left: 0;
+    color: #fff;
+    &__item {
+      padding: 10px;
+      margin-right: 20px;
+      
+      .link {
+        color: #fff;
+        text-decoration: none;
+      }
+    }
+  }
+  &-form__input {
+    padding: 20px 40px;
+    background-color: #efefef;
+    border-radius: 39px;
+    border: 1px solid #e8e8e8;
+    margin-right: 12px;
+  }
+  &-form__button {
+   
+    padding: 20px 40px;
+    background: #ffffff;
+    border-radius: 35px;
+    border: none;
+    cursor: pointer;
+    color: #2091f9;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    
+  }
+  &-login__button {
+    margin-right: 20px;
+    padding: 20px 40px;
+    background: #ffffff;
+    border-radius: 35px;
+    border: none;
+    cursor: pointer;
+    color: #2091f9;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    display: none;
+  }
+  &-mobile {
+    justify-content: center;
+    align-items: center;
+  }
+  .burger {
+    display: none;
+    width: 27px;
+    height: 16px;
+  }
+  .button-burger {
+    background-color: transparent;
+    outline: none;
+    border: none;
+  }
+ 
+
+  @media screen and (max-width: 1230px) {
+    .header-form__input {
+      display: none;
+    }
+    
+  }
+  @media screen and (max-width: 1024px) {
+    .header {
+      padding: 16px;
+
+      &-lerogo__container {
+        padding: 0;
+      }
+      .header-form {
+        display: none;
+      }
+    }
+    
+  }
+  
+  .header-form__button{
+    display: none;
+  }
+  @media screen and (max-width: 769px) {
+    .header-login__button {
+      display: block;
+    }
+    .header-mobile {
+      display: flex;
+    }
+    .header {
+      margin-bottom: 20px;
+      justify-content: space-between;
+    }
+    .header-list {
+      display: none;
+    }
+    .header-logo__container {
+      width: 140px;
+    }
+    .header-logo__container img {
+      width: 100%;
+      height: 100%;
+    }
+    .burger {
+      display: block;
+    }
+    .button-burger_list{
+     width: 100%;
+     left: 0;
+     top: 130px;
+      position: absolute;
+      display: block;
+      background: none;
+      border: none;
+      background-color: white;
+      text-align: center;
+      display: none;
+       
+     .link{
+       text-decoration: none;
+       color: #2091f9;
+     }
+     &.active{
+       display: block;
+     }
+    }
+  }
+  @media screen and (max-width: 419px) {
+    .header {
+      padding: 0;
+      margin-bottom: 110px;
+      justify-content: center;
+      align-items: center;
+    }
+    .header-mobile {
+      margin: 31px 22px 0 0;
+    }
+  
+    .header-logo {
+      margin: 28px 3px 0 0px;
+      padding: 0;
+      width: 186px;
+      height: 58px;
+    }
+    .header-logo__container {
+      padding: 0;
+      margin: 0;
+      width: auto;
+    }
+    .header-login__button {
+      margin-right: 27px;
+      width: 117px;
+      height: 52px;
+    }
+  }
+}

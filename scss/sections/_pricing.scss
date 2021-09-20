@@ -1,0 +1,133 @@
+.pricing {
+  background-color: #252b42;
+  &-block {
+    padding: 100px 282px;
+    display: flex;
+    justify-content: center;
+  }
+}
+.pricing-informations__left {
+  margin-right: 160px;
+  margin-bottom: 67px;
+  text-align: left;
+  &__left-title {
+    font-weight: 900;
+    font-size: 55px;
+    line-height: 65px;
+    color: #ffffff;
+  }
+  &-text {
+    margin: 0px 10px;
+    width: 341px;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 27px;
+    color: #ffffff;
+  }
+}
+.pricing-informations__right {
+  text-align: left;
+
+  &-title {
+    margin-bottom: 19px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #ffffff;
+  }
+  &-subtitle {
+    margin-bottom: 19px;
+    display: flex;
+    font-weight: 500;
+    align-items: center;
+    font-size: 16px;
+    line-height: 20px;
+    color: #ffffff;
+  }
+  &-span {
+    margin-right: 10px;
+    font-weight: 900;
+    font-size: 55px;
+    line-height: 65px;
+    color: #ffffff;
+  }
+  &-button {
+    padding: 18px 38px;
+    margin-top: 9px;
+    color: #ffffff;
+    background: #2091f9;
+    border-radius: 35px;
+    border: none;
+    cursor: pointer;
+  }
+}
+@media screen and (max-width: 1230px) {
+  .pricing {
+    &-block {
+      padding: 0;
+    }
+  }
+
+  .pricing-informations__left {
+    margin-right: 73px;
+  }
+  .pricing-block {
+    padding: 100px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .pricing {
+    &-block {
+      padding: 0;
+    }
+  }
+}
+@media screen and (max-width: 769px) {
+  .pricing {
+    &-block {
+      padding: 0;
+      flex-wrap: wrap;
+    }
+  }
+
+  .pricing-informations__left-title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .pricing-informations__left {
+    margin: 0 0 40px 0;
+  }
+  .pricing-informations__left-text {
+    width: 100%;
+    margin: 0;
+  }
+}
+@media screen and (max-width: 419px) {
+  
+  .pricing-informations__left {
+    margin-bottom: 0;
+  }
+  .pricing-informations__left-title {
+    margin: 110px 0 26px;
+    font-weight: 900;
+  }
+  .pricing-informations__left-text {
+    text-align: center;
+    width: 341px;
+    margin-bottom: 112px;
+  }
+  .pricing-informations__right-title {
+    margin-bottom: 19px;
+  }
+  .pricing-informations__right-subtitle {
+    margin-bottom: 16px;
+    width: 218px;
+  }
+  .pricing-informations__right-button {
+    margin: 0 41px 100px;
+    width: 159px;
+  }
+  .pricing-informations__right {
+    display: flex;
+    flex-direction: column;
+  }
+}
